@@ -1,11 +1,10 @@
-/* for (let i = 0; i < 3; i++) {
-    alert( `number ${i}!` );
-  } */
-// Заменить for на while
+var a = +prompt("Введите первое число");
+var n = +prompt("Введите второе число");
+var sum = 0;
 
-
-let i = 0
-while (i < 3) {
-    alert(`number ${i}!`);
-    i++;
+while (a <= n) {
+    sum += a;
+    a++;
 }
+
+alert(sum)
